@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Membuat form</title>
+    <link rel="stylesheet" href="belajar.css">
+
+</head>
+<body>
+    <h2 align="center">Formulir Data Mahasiswa</h2>
+    <form action="#" method="post">
+        <table align="center" cellpadding="5">
+            <tr>
+                <td>Nama:</td>
+                <td><input type="text" name="nama" required></td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" name="password" required></td>
+            </tr>
+            <tr>
+                <td>Usia:</td>
+                <td><input type="number" name="usia" min="1" max="100"></td>
+            </tr>
+            <tr>
+                <td>Tanggal Lahir:</td>
+                <td><input type="date" name="tgl_lahir"></td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin:</td>
+                <td>
+                    <input type="radio" name="jenkel" value="Laki-laki"> Laki-laki
+                    <input type="radio" name="jenkel" value="Perempuan"> Perempuan
+                </td>
+            </tr>
+            <tr>
+                <td>Hobi:</td>
+                <td>
+                    <input type="checkbox" name="hobi" value="Membaca"> Membaca
+                    <input type="checkbox" name="hobi" value="Menulis"> Menulis
+                    <input type="checkbox" name="hobi" value="Olahraga"> Olahraga
+                </td>
+            </tr>
+            <tr>
+                <td>Fakultas:</td>
+                <td>
+                    <select name="fakultas">
+                        <option value="Informatika">Informatika</option>
+                        <option value="Ekonomi">Ekonomi</option>
+                        <option value="Kedokteran">Kedokteran</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Alamat:</td>
+                <td><textarea name="alamat" rows="4" cols="30"></textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Kirim">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
+</body>
+</html>

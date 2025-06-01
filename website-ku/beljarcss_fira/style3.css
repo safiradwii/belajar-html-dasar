@@ -1,0 +1,21 @@
+* {
+    font-family: tahoma;
+}
+h1 {
+    font-size: 30px;
+}
+.artikel { 
+     font-size: 20px;
+}
+.credit {
+    font-size: 12px;
+}
+.penulis {
+    color: purple;
+}
+.tanggal {
+    color: brown;
+}
+#artikel-1 {
+    color: darkorchid;
+}
